@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: 'Overlock', cursive;
+    overflow: hidden;
+    background-color: black;
+}
+
+#end {
+    background-color: rgba(139, 0, 0, 0.596);
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0px;
+    left: 0px;
+    line-height: 100vh;
+    font-size: 100px;
+    text-align: center;
+    font-weight: 900;
+    font-family: 'Bungee Inline', cursive;
+    display: none;
+}
+button {
+    width: auto;
+    padding: 3px;
+    margin-right: 3px;
+    float: none;
+    font-size: 15px;
+    font-family: 'Overlock', cursive;
+}
+
+.hex {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-image: url("hex.png");
+    background-size: contain;
+}
+
+.arrow {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-image: url("arrow.png");
+    background-size: contain;
+    background-repeat: repeat-x;
+}
+
+.number {
+    color: red;
+    font-weight: 900;
+    font-size: 20px;
+    z-index: 10;
+    position: absolute;
+    left: 35px;
+}
